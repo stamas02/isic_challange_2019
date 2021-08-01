@@ -167,11 +167,11 @@ def parseargs():
                         help="String Value - This is a descriptive name of the method. "
                              "Will be used in legends e.g. ROC curve")
 
-    parser.add_argument("--seed", type=float,
+    parser.add_argument("--seed", type=int,
                         default=7,
                         help="Floating Point Value - Random Seed")
 
-    parser.add_argument("--num-workers", type=float,
+    parser.add_argument("--num-workers", type=int,
                         default=2,
                         help="Integer Value - Number of workers used for parallel data loading.")
 
